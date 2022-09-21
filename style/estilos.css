@@ -52,7 +52,43 @@ section#login > div#imagem{
     background-position:  left bottom;
     
 }
-section#login >div#formulario{
+section#login >  div#formulario{
     display: block;
     padding:10px;
+    
+}
+ h1{
+    padding:5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+  p{
+    line-height: 1.2rem;
+    font-size: 0.875em;
+    
+}
+.campo{
+    padding: 0;
+    font-size: 0.84rem;
+}
+.material-icons{
+    margin-top: 8px;
+    
+}
+input{
+    position: relative;
+    top:-7px;
+}
+label{
+    position: relative;
+    top:-7px;
+}
+a{
+    position: relative;
+    top:-7px;
+    
+}
+i{
+    position: relative;
+    top:7px;
 }
