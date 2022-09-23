@@ -33,6 +33,7 @@ Grandes telas: acima de 1200px
    
           
        }
+   
 }
 @media screen and (min-width:992px) and (max-width:1200px){
     body{
@@ -52,7 +53,7 @@ Grandes telas: acima de 1200px
     section#login >  div#formulario{
         
         float: right;
-        width:50%;
+        width:30%;
 
     }
     p{
@@ -72,7 +73,7 @@ Grandes telas: acima de 1200px
         width:950px;
     }
     section#login >  div#imagem{
-        float: left;
+        float: right;
         width: 60%;
         height: 100%;
 
