@@ -73,8 +73,33 @@ form > div.campo{
   display:block;
   height: 40px;
   border-radius: 5px;
-  margin:5px 0px
+  margin:5px 0px;
+  
 
+  
+ 
+
+}
+ div.campo  >input{
+    
+    background: #45dfdd;
+    font-size: 1em;
+    width:calc(100% - 33.99px);
+    height: 100%;
+    transform: translateY(-3px);
+ }
+#pe,#cha{
+    position: relative;
+    font-size: 1.85em;
+    top:2px;
+    width: 30.01px;
+    height: 30px;
+    left:2.5px;
+    text-align: center;
+
+    color:#fff;
+    
+   
 }
 
 form > input[type=submit]{
