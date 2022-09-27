@@ -74,33 +74,28 @@ form > div.campo{
   height: 40px;
   border-radius: 5px;
   margin:5px 0px;
-  
+  border:  2px solid #5f2c82;
+  border-radius: 12px;
 
   
  
 
 }
  div.campo  >input{
-    
+    position: relative;
+    left:3px;
+    top:-2px;
     background: #45dfdd;
     font-size: 1em;
-    width:calc(100% - 33.99px);
-    height: 100%;
-    transform: translateY(-3px);
+    width:calc(100% - 41px);
+    height: 110%;
+    transform: translateY(-4px);
+    border-radius: 12px;
  }
-#pe,#cha{
-    position: relative;
-    font-size: 1.85em;
-    top:2px;
-    width: 30.01px;
-    height: 30px;
-    left:2.5px;
-    text-align: center;
+ div.campo  >input:focus-within{
+    background-color: white;
+ }
 
-    color:#fff;
-    
-   
-}
 
 form > input[type=submit]{
     display: block;
@@ -119,6 +114,7 @@ div.campo > label{
    display: none;
     
 }
+
 form > input[type=submit]:hover{
     background-color:  #1a6461;
 }
@@ -147,4 +143,9 @@ form > a.botao:hover{
 form > a.botao > i{
  font-size: 0.8em;
  
+}
+#key,#pen{
+    font-size: 1.6em;
+    padding-left: 10px;
+    padding-top: 5px;
 }
