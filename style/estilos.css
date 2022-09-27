@@ -89,8 +89,8 @@ form > div.campo{
     font-size: 1em;
     width:calc(100% - 41px);
     height: 110%;
-    transform: translateY(-4px);
     border-radius: 12px;
+    transform: translateY(-4px);
  }
  div.campo  >input:focus-within{
     background-color: white;
